@@ -1,4 +1,5 @@
 i386_ss = ss.source_set()
+i386_ss.add(files('pvsched.c'))
 i386_ss.add(files(
   'fw_cfg.c',
   'e820_memory_layout.c',
