@@ -172,3 +172,8 @@ config XEN_EMU
     bool
     default y
     depends on KVM && I386
+
+config PVSCHED
+    bool
+    default y
+    depends on PCI && KVM
